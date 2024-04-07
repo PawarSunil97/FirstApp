@@ -1,0 +1,27 @@
+first way inject react in project
+using CDN we can add the React inside the HTML in script tag
+like this:
+
+
+what is CDN:
+
+CDN stands for Content Delivery Network, which is a system of servers that deliver web content to users based on their geographic location.
+
+Import React with CDN:-
+To use React with CDN, you need to add two script tags to your HTML file: one for React and one for ReactDOM. React is the core library that provides the functionality for creating components and elements. ReactDOM is the library that provides the functionality for rendering React elements to the DOM. You can use the following script tags to load the latest versions of React and ReactDOM from unpkg, which is a CDN service that hosts npm packages:
+
+ <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    
+
+Why the crossorigin Attribute?:-
+If you serve React from a CDN, we recommend to keep the crossorigin attribute set:
+
+what is differance between library and framework:-
+
+Both the framework vs library is precoded support programs to develop complex software applications. However, libraries target a specific functionality, while a framework tries to provide everything required to develop a complete application
+
+
+what is npm:-
+
+npm is a package manager for the javascript programing language maintained by npm, inc.
